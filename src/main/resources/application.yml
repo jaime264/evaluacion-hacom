@@ -1,0 +1,19 @@
+server:
+  port: ${apiPort:9898}  # Define el puerto de la API
+
+mongodb:
+  database: exampleDb
+  uri: "mongodb://127.0.0.1:27017"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+
+logging:
+  config: classpath:log4j2.yml

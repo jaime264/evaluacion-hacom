@@ -42,6 +42,5 @@ out/
 .env
 *.env
 secrets.yml
-application.yml
 application.properties
 !src/main/resources/application.yml.example
