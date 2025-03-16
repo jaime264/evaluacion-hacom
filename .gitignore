@@ -1,0 +1,47 @@
+# Ignore build files
+/build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+out/
+
+# Ignore Eclipse/STS files
+.classpath
+.project
+.settings/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore temporary files
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# Ignore compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore dependency cache
+**/node_modules/
+**/target/
+**/bin/
+
+# Ignore environment files
+.env
+*.env
+secrets.yml
+application.yml
+application.properties
+!src/main/resources/application.yml.example
